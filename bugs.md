@@ -12,16 +12,16 @@ Error:   × Unexpected token `div`. Expected jsx identifier
 Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
 ```
 
-## Bug 3 - on home page, click the Get Started or the Go to Dashboard button to visit the /dashboard page, the error below pops up.
-
-```
-Error:   Error: savedGoals is not defined.
-```
-
-## Bug 4 - on dashboard page, navigate to the progress page, the error below pops up.
+## Bug 3 - on dashboard page, navigate to the progress page, the error below pops up.
 
 ```
 Error:   ReferenceError: CardHeader is not defined.
+```
+
+## Bug 4 - on home page, click the Get Started or the Go to Dashboard button to visit the /dashboard page, the error below pops up.
+
+```
+Error:   Error: savedGoals is not defined.
 ```
 
 ## Bug 5 - on goals page, click the increase button and the progress percentage goes down instead of increasing by 1%.
