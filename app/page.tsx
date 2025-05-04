@@ -34,7 +34,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Link ref="/dashboard">
+                <Link hhref="/dashboard">
                   <Button>Get Started</Button>
                 </Link>
               </div>
