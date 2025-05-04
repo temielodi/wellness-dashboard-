@@ -69,7 +69,7 @@ export function GoalsProvider({ children }: { children: ReactNode }) {
 
   // Load goals from localStorage on component mount
   useEffect(() => {
-   const savedGoals = localStorage.getItem("wellness-goals")
+   savedGoals = localStorage.getItem("wellness-goals")
     if (savedGoals) {
       setGoals(JSON.parse(savedGoals))
     } else {
